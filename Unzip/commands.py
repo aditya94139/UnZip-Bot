@@ -9,11 +9,11 @@ async def start(client, message):
     reply_markup = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("📍 Update Channel", url="https://t.me/NT_BOT_CHANNEL"),
+            InlineKeyboardButton("📍 Update Channel", url="https://t.me/Medicoarmy"),
         ],
         [
-            InlineKeyboardButton("👥 Support Group", url="https://t.me/NT_BOTS_SUPPORT"),
-            InlineKeyboardButton("👩‍💻 Developer", url="https://t.me/LISA_FAN_LK"),
+            InlineKeyboardButton("👥 Support Group", url="https://t.me/thembotsupport"),
+            InlineKeyboardButton("👩‍💻 Developer", url="https://t.me/Maisamyahu"),
         ] 
    ]
   )
@@ -32,7 +32,7 @@ async def help_command(client, message):
         "/start - Start the bot and get the welcome message\n"
         "/help - Get help on how to use the bot\n\n"
         "To unzip a file, simply send me a ZIP file and I will extract its contents and send them back to you.\n\n"
-        "©️ Channel : @NT_BOT_CHANNEL"
+        "©️ Channel : @Maisamyahu"
     )
     await message.reply(help_message)
     
